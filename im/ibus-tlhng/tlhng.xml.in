@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- filename: tlhng.xml -->
+<component>
+    <name>org.freedesktop.IBus.Tlhng</name>
+    <description>Input Engine for tlhIngngutlh characters</description>
+    <version>0.4.0</version>
+    <license>GPL</license>
+    <author>Iikka Hauhio</author>
+    <homepage>https://github.com/fergusq/ibus-tlhng</homepage>
+    <exec>@PYTHON@ @DATADIR@/ibus-tlhng/ibus.py --ibus</exec>
+    <textdomain>tlhng</textdomain>
+    <engines>
+        <engine>
+            <name>tlhng</name>
+            <longname>tlhng</longname>
+            <description>Input Engine for tlhIngngutlh characters</description>
+            <language></language>
+            <license>GPL</license>
+            <author>Iikka Hauhio</author>
+            <icon>@DATADIR@/ibus-uniemoji/Hol.svg</icon>
+            <layout>fi</layout>
+            <layout_variant></layout_variant>
+            <layout_option></layout_option>
+            <hotkeys></hotkeys>
+            <symbol>tlh</symbol>
+            <setup></setup>
+            <version></version>
+            <textdomain></textdomain>
+            <rank>0</rank>
+        </engine>
+    </engines>
+</component>
